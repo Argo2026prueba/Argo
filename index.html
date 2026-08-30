@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ARGO · Agente Quique</title>
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><strong>ARGO</strong><span>Agente Quique</span></div>
+    <div class="status">Sistema comercial</div>
+  </header>
+  <div class="layout">
+    <aside class="sidebar">
+      <button class="nav active" data-view="inicio">Inicio</button>
+      <button class="nav" data-view="clientes">Clientes</button>
+      <button class="nav" data-view="catalogos">Catálogos</button>
+      <button class="nav" data-view="presupuestos">Presupuestos</button>
+      <button class="nav" data-view="comparativas">Comparativas</button>
+      <button class="nav" data-view="quique">Agente Quique</button>
+    </aside>
+    <main id="app"></main>
+  </div>
+  <script src="src/app.js"></script>
+</body>
+</html>
